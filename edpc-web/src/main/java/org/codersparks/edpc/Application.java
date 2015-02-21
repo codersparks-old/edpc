@@ -1,4 +1,4 @@
-package hello;
+package org.codersparks.edpc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -11,7 +11,7 @@ import org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguratio
 
 @Configuration
 @EnableJpaRepositories
-@Import(RepositoryRestMvcConfiguration.class)
+@Import(RestDataConfig.class)
 @EnableAutoConfiguration
 public class Application extends SpringBootServletInitializer {
 

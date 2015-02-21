@@ -1,4 +1,4 @@
-package hello;
+package org.codersparks.edpc;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
