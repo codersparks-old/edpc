@@ -1,0 +1,10 @@
+**/target/
+**/.settings
+**/.classpath
+**/.project
+**/.springBeans
+**/log/
+.settings
+webapps/ROOT.war
+.project
+.classpath

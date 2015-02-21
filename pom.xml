@@ -3,9 +3,19 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edpc</groupId>
 	<artifactId>edpc</artifactId>
-	<packaging>war</packaging>
+	<packaging>pom</packaging>
 	<version>1.0</version>
 	<name>edpc</name>
+	
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.2.1.RELEASE</version>
+	</parent>
+	
+	<modules>
+		<module>./gs-accessing-data-rest-complete</module>
+	</modules>
 	<repositories>
 		<repository>
 			<id>eap</id>
@@ -32,8 +42,8 @@
 	</pluginRepositories>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>1.6</maven.compiler.source>
-		<maven.compiler.target>1.6</maven.compiler.target>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
