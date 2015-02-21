@@ -14,7 +14,7 @@
 	</parent>
 	
 	<modules>
-		<module>./gs-accessing-data-rest-complete</module>
+		<module>./edpc-web</module>
 	</modules>
 	<repositories>
 		<repository>
