@@ -16,6 +16,7 @@
 	<modules>
 		<module>./edpc-web</module>
 		<module>./edpc-model</module>
+		<module>./edpc-eddb-syncroniser</module>
 	</modules>
 	<repositories>
 		<repository>

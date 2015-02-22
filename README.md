@@ -1,3 +1,5 @@
-The OpenShift `jbossews` cartridge documentation can be found at:
+EDPC - Elite Dangerous Pilot Companion
+======================================
 
-http://openshift.github.io/documentation/oo_cartridge_guide.html#tomcat
+A web app that will act as a companion for pilots flying in elite dangerous
+
