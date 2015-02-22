@@ -35,6 +35,10 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>edpc</groupId>
+			<artifactId>edpc-model</artifactId>
+		</dependency>
 	</dependencies>
 
 	<properties>
