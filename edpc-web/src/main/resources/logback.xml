@@ -25,9 +25,14 @@
         </encoder>         
       </appender>
  
+	<logger name="org.hibernate.type" level="TRACE">
+		<appender-ref ref="dailyRollingFileAppender" />
+	</logger> 
+ 
     <root>
         <level value="INFO" />
         <appender-ref ref="consoleAppender" />
         <appender-ref ref="dailyRollingFileAppender" />
     </root>
+    
 </configuration>
